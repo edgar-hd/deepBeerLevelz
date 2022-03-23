@@ -20,9 +20,7 @@ I have a webcam, and I can train the model with accurate measurements, so let's 
 
 ## Results in a video
 
-I've embedded the video below of a glass filling up with beer and its predicted value. When running the code "predict_volume.py" below, one can get a similar output in real time.
-
-<video controls src="sequence_datasets/2gsequence_video.mp4" />
+I've embedded the video below of a glass filling up with beer and its predicted value.
 
 Link in case the video does not play, which seems to happen with markdown on github: https://github.com/edgar-hd/deepBeerLevelz/tree/main/sequence_datasets/2gsequence_video.mp4
 
