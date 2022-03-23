@@ -1,9 +1,15 @@
+desc = '''Script to produce glass volume in real time.
+
+Press 'q' to quit.
+
+'''
+
 from keras.models import load_model
 import cv2
 import numpy as np
 from random import choice
 
-model = load_model("deepBeerLevels_2g.h5")
+model = load_model("deepBeerLevelz.h5")
 
 cap = cv2.VideoCapture(0)           # Start camera
 cap.set(cv2.CAP_PROP_AUTOFOCUS, 0)  # turn the autofocus off
@@ -29,7 +35,7 @@ while True:
 
     # display the information
     font = cv2.FONT_HERSHEY_SIMPLEX
-    cv2.putText(frame, "Volume: " + str(move_code),
+    cv2.putText(frame, "Volume: " + str(move_code) + "ml",
                 (50, 50), font, 1.2, (255, 255, 255), 2, cv2.LINE_AA)
 
     cv2.imshow("Test", frame)
