@@ -2,6 +2,9 @@
 
 DISCLAIMER: No beer was wasted in the making of this project.
 
+Do see the video below which plays nicely on markdown depending somewhat on your browser.
+Otherwise please refer to the jupyter notebook [deep_temp-Class.ipynb](deep_temp-Class.ipynb) for a breakdown of the project, I write below the motivation and summary which can also be found in the notebook.
+
 ## Motivation
 
 I was enjoying drinks with a friend at my flat and were drinking a particularly exceptional lambic beer (Cantillon Brabantiae, 2018. See: https://www.cantillon.be/) and wanted to ensure to distribute it as equitatively as possible.
@@ -20,6 +23,8 @@ I have a webcam, and I can train the model with accurate measurements, so let's 
 
 ## Results in a video
 I've embedded the video below of a glass filling up with beer and its predicted value.
+
+https://user-images.githubusercontent.com/43865617/159798476-0b6eaa33-3283-47d8-9dc0-aa98844eee13.mp4
 
 Link in case the video does not play, which seems to happen with markdown on github: https://github.com/edgar-hd/deepBeerLevelz/tree/main/sequence_datasets/2gsequence_video.mp4
 
