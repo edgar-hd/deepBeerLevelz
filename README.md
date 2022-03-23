@@ -19,7 +19,6 @@ In the end we got distracted by other topics and estimated our servings, yet the
 I have a webcam, and I can train the model with accurate measurements, so let's give it a go.
 
 ## Results in a video
-
 I've embedded the video below of a glass filling up with beer and its predicted value.
 
 Link in case the video does not play, which seems to happen with markdown on github: https://github.com/edgar-hd/deepBeerLevelz/tree/main/sequence_datasets/2gsequence_video.mp4
