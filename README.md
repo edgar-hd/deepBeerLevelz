@@ -24,9 +24,22 @@ I have a webcam, and I can train the model with accurate measurements, so let's 
 ## Results in a video
 I've embedded the video below of a glass filling up with beer and its predicted value.
 
-https://user-images.githubusercontent.com/43865617/159798476-0b6eaa33-3283-47d8-9dc0-aa98844eee13.mp4
+<table>
+  <td> 
 
-Link in case the video does not play, which seems to happen with markdown on github: https://github.com/edgar-hd/deepBeerLevelz/tree/main/sequence_datasets/2gsequence_video.mp4
+https://user-images.githubusercontent.com/43865617/159817394-c636d497-40a2-4f07-92bc-6bf265cc496f.mp4
+
+ </td>
+  <td> 
+
+https://user-images.githubusercontent.com/43865617/159817471-45a18fe3-87ff-426f-8161-962ca37fd72c.mp4
+
+ </td>
+</table>
+
+Link in case the video does not play, which seems to happen with markdown on github:
+- https://github.com/edgar-hd/deepBeerLevelz/tree/main/sequence_datasets/1gsequence_video.mp4
+- https://github.com/edgar-hd/deepBeerLevelz/tree/main/sequence_datasets/2gsequence_video.mp4
 
 ## Summary and thoughts
 I have made a prototype algorithm able to accurately calculate the amount of blond beer in my house glasses. These glasses are substantially different to each other and have irregular shapes and patterns that the algorithm is able to overcome, and it still accurately returns the volume. It also seems to focus sufficiently on the glass such that a stream of liquid doesn't affect the measurements too much, and the slight variations in angles mean I don't need to worry too much about where I place my glass, as long as it's roughly a similar position.
